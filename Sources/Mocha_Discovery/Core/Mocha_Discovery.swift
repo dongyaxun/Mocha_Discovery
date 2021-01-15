@@ -2,14 +2,14 @@ import UIKit
 import URLNavigator
 import ModuleCenter
 
-public struct Module_Discovery {
+public struct Mocha_Discovery {
     private init() {}
 }
 
-extension Module_Discovery: Module {
+extension Mocha_Discovery: Module {
     
-    public static var shared: Module_Discovery {
-        return Module_Discovery()
+    public static var shared: Mocha_Discovery {
+        return Mocha_Discovery()
     }
     
     public static func initialize(navigator: NavigatorType) {
